@@ -6,6 +6,7 @@ import About from './About'
 import Book from './Book'
 import Order from './Order'
 import Terms from './Terms'
+import Contact from './Contact'
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Book" element={<Book />} />
         <Route path="/Order" element={<Order />} />
         <Route path="/Terms" element={<Terms />} />
+        <Route path="/Contact" element={<Contact />} />
       </Routes>
     </Router>
   )

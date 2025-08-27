@@ -9,6 +9,7 @@ function Nav() {
        <Link to="/">Home</Link>
        <Link to="/About">About</Link>
        <Link to="/Terms">Terms</Link>
+       <Link to="/Contact">Contact</Link>
       </nav>
     </header>
    
