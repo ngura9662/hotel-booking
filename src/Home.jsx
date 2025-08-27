@@ -1,3 +1,4 @@
+import {Link} from 'react-router-dom'
 function Home() {
   return (
     <div>
@@ -22,7 +23,7 @@ function Home() {
                 </div>
                 <div className="room-price">
                   <div className="price">$70 <small>/night</small></div>
-                  <a href="#booking" className="book-btn">Book Now</a>
+                  <Link to="/Book" className="book-btn">Book Now</Link>
                 </div>
               </div>
             </div>
@@ -40,7 +41,7 @@ function Home() {
                 </div>
                 <div className="room-price">
                   <div className="price">$110 <small>/night</small></div>
-                  <a href="#booking" className="book-btn">Book Now</a>
+                  <Link to="/Book" className="book-btn">Book Now</Link>
                 </div>
               </div>
             </div>
@@ -57,7 +58,7 @@ function Home() {
                 </div>
                 <div className="room-price">
                   <div className="price">$150 <small>/night</small></div>
-                  <a href="#booking" className="book-btn">Book Now</a>
+                  <Link to="/Book" className="book-btn">Book Now</Link>
                 </div>
               </div>
             </div>
@@ -86,7 +87,7 @@ function Home() {
                 </div>
                 <div className="room-price">
                   <div className="price">$15 <small>/dish</small></div>
-                  <a href="#booking" className="book-btn">Order Now</a>
+                  <Link to="/Order" className="book-btn">Order Now</Link>
                 </div>
               </div>
             </div>
@@ -103,7 +104,7 @@ function Home() {
                 </div>
                 <div className="room-price">
                   <div className="price">$10 <small>/dish</small></div>
-                  <a href="#booking" className="book-btn">Order Now</a>
+                  <Link to="/Order" className="book-btn">Order Now</Link>
                 </div>
               </div>
             </div>
@@ -119,7 +120,7 @@ function Home() {
                 </div>
                 <div className="room-price">
                   <div className="price">$15 <small>/dish</small></div>
-                  <a href="#booking" className="book-btn">Order Now</a>
+                  <Link to="/Order" className="book-btn">Order Now</Link>
                 </div>
               </div>
             </div>
