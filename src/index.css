@@ -714,3 +714,25 @@ footer {
             margin-bottom: 1rem;
             color: #f9f9f9;
         }
+        /* Terms and Conditions */
+        .terms-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: #fff;
+            border: 1px solid #222;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+        }
+        .terms-section h2 {
+            margin-bottom: 1rem;
+            color: #222;
+        }
+        .terms-section p {
+            margin-bottom: 1rem;
+            color: #464040;
+        }
+        .terms-section ul {
+            list-style: disc inside;
+            margin-bottom: 1rem;
+            color: #464040;
+        }
