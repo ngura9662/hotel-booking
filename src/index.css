@@ -712,3 +712,50 @@ footer {
             margin-bottom: 1rem;
             color: #464040;
         }
+
+        /* contact section */
+        .contact-section {
+            margin-top: 3rem;
+            padding: 2rem;
+            background: #fff;
+            border: 1px solid #222;
+            border-radius: 10px;
+            box-shadow: var(--shadow);
+            text-align: center;
+        }
+        .contact-section h1 {
+            margin-bottom: 1rem;
+            color: #222;
+
+        }
+        .contact-section p {
+            margin-bottom: 1rem;
+            color: #464040;
+        }
+        .contact-section label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+            color: #222;
+        }
+        .contact-section input, .contact-section textarea {
+            width: 100%;
+            padding: 0.8rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        .contact-section button {
+            background-color: var(--primary);
+            color: #fff;
+            border: none;
+            padding: 1rem 2rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: background-color 0.3s;
+        }
+        .contact-section button:hover {
+            background-color: var(--secondary);
+        }
+        
